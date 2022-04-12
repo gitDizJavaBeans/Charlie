@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+  font-family:arial;
+  
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+h1{
+  text-align: center;
+  font-size: 4rem;
+  
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption{
+  text-align: center;
+}
+#survey > p {
+font-size: 115%;
+text-decoration: underline;
+margin-bottom: -0.006em;
+}
+label {
+margin-left: -0.15em;
+font-style: italic;
+}
+
+</style>
+
+
+<main id="main">
+  <h1 id="title"> Charlie The Dog </h1>
+  <figure id="img-div">
+   <img 
+        id="image"     src="https://media.discordapp.net/attachments/755218309284102166/952016508941377646/PXL_20220312_012930132.jpg?width=497&height=662" 
+        alt="Charlie's dinner"/> 
+    <figcaption id="img-caption">
+      Nom Nom Nom </figcaption>
+  </figure>
+  <section id="tribute-info">
+  <h2 id="Charlie's breed"> Charlie is a rottweiler, doberman, american bulldog mix! </h2>
+  <div id="survey">
+  <p> Do you like Charlie?</p>
+  <label>
+      <input
+             type="checkbox"
+             value="choice1"
+             class="input-checkbox"
+             />
+      Yes</label>
+    
+        <label>
+      <input
+             type="checkbox"
+             value="choice2"
+             class="input-checkbox"
+             />
+      Absolutely</label>
+	  </div>
+    <h3 id="Charlie's likes">
+      <strong>Charlie likes:</strong>
+      <ul>
+      <li>
+        Playing tug
+      </li>
+      <li>
+        Destroying toys
+      </li>
+      <li>
+        Eating meat and vegetables
+      </li>
+      </ul>
+    </h3>
+      <h4>
+        Learn more about 
+        <a id="tribute-link"
+           href="https://en.wikipedia.org/wiki/Dog"
+           target="blank">
+          man's best friend
+        </a>
+    </h4>
+  </section>
+ 
+
+</main>
+</html>
